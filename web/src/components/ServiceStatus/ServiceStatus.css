@@ -1,0 +1,76 @@
+.service-status-background {
+    width: 330px;
+    height: 120px;
+    border-radius: 25px;
+}
+
+.service-status-name {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 102%;
+    /* identical to box height, or 16px */
+    letter-spacing: 0.01em;
+    color: #EEEEEE;
+}
+
+.service-status-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 102%;
+    /* or 18px */
+    letter-spacing: 0.01em;
+    color: #DBDBDB;
+}
+
+.service-state-not-connected {
+    background-color: #F4C13C;
+    border-radius: 5px;
+    width: 109px;
+    height: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 102%;
+    /* or 12px */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.service-state-connected {
+    background-color: #7BDA8A;
+    border-radius: 5px;
+    width: 109px;
+    height: 18px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 102%;
+    /* or 12px */
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.service-switch-button {
+    width: 170px;
+    height: 25px;
+    background: #1F1F1F;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 102%;
+    /* or 18px */
+    letter-spacing: 0.01em;
+    color: #F2F2F2;
+}
+
+.service-switch-button:hover {
+    background: #42405e;
+}

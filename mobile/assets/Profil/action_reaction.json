@@ -1,0 +1,201 @@
+[
+    {
+        "name": "Timer",
+        "image": "assets/Profil/iconTimer.svg",
+        "color": "0XFFFD7272",
+        "actions": [
+            {
+                "name": "Date ",
+                "actionId": "timer_action_date",
+                "params": [{ "name": "date", "type": "calendar", "value": "DD/MM/YYYY"}]
+            },
+            {
+                "name": "Heure ",
+                "actionId": "timer_action_time",
+                "params": [{ "name": "timer", "type": "time", "value": "HH/MM"}]
+            }
+        ],
+        "reactions": []
+    },
+    {
+        "name": "Twitch",
+        "image": "assets/Profil/iconTwitch.svg",
+        "color": "0XFFA970FF",
+        "actions": [
+            {
+              "name": "En live ",
+              "actionId": "twitch_action_channel_is_live",
+              "params": [
+                { "name": "Nom de la chaîne", "type": "text", "value": ""}
+              ]
+            }
+          ],
+          "reactions": [
+            {
+              "name": "Abonnement ",
+              "reactionId": "twitch_reaction_follow",
+              "params": [
+                { "name": "Nom de la chaîne", "type": "text", "value": ""}
+              ]
+            }
+          ]
+          },
+    {
+        "name": "Weather",
+        "image": "assets/Profil/iconWeather.svg",
+        "color": "0XFF8D8D8D",
+        "actions": [
+            {
+                "name": "Température ",
+                "actionId": "weather_action_temp_is",
+                "params": [
+                    { "name": "Ville", "type": "text", "value": ""},
+                    { "name": "Température", "type": "text", "value": ""}
+                ]
+            },
+            {
+                "name": "Température ressentie ",
+                "actionId": "weather_action_temp_feelslike_is",
+                "params": [
+                    { "name": "Ville", "type": "text", "value": ""},
+                    { "name": "Température", "type": "text", "value": ""}
+                ]
+            },
+            {
+                "name": "Humidité ",
+                "actionId": "weather_action_humidity_is",
+                "params": [
+                    { "name": "Ville", "type": "text", "value": ""},
+                    { "name": "Température", "type": "text", "value": ""}
+                ]
+            },
+            {
+                "name": "Vitese du vent ",
+                "actionId": "weather_action_wind_is",
+                "params": [
+                    { "name": "Ville", "type": "text", "value": ""},
+                    { "name": "Température", "type": "text", "value": ""}
+                ]
+            }
+        ],
+        "reactions": []
+    },
+    {
+        "name": "Notifs",
+        "image": "assets/Profil/iconNotifs.svg",
+        "color": "0XFF229EC6",
+        "actions": [],
+        "reactions": [
+            {
+                "name": "Notification ",
+                "reactionId": "notifs_reaction_send",
+                "params": [
+                    { "name": "Titre", "type": "text", "value": ""},
+                    { "name": "Message", "type": "text", "value": ""}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Spotify",
+        "image": "assets/Profil/iconSpotify.svg",
+        "color": "0XFF1DB954",
+        "actions": [
+            {
+                "name": "Une musique a été écouté ",
+                "actionId": "spotify_action_last_music_listened_is",
+                "params": [
+                    { "name": "Artiste", "type": "text", "value": ""},
+                    { "name": "Musique", "type": "text", "value": ""}
+                ]
+            }
+        ],
+        "reactions": []
+    },
+    {
+        "name": "Mail",
+        "image": "assets/Profil/iconMail.svg",
+        "color": "0XFFD95FB7",
+        "actions": [],
+        "reactions": [
+            {
+                "name": "Envoyer un mail ",
+                "reactionId": "mail_reaction_send_mail",
+                "params": [
+                    { "name": "Destinataire", "type": "text", "value": ""},
+                    { "name": "Objet", "type": "text", "value": ""},
+                    { "name": "Message", "type": "text", "value": ""}
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Mobile",
+        "nameLowercase": "mobile",
+        "image": "assets/Profil/iconMobile.svg",
+        "color": "0XFFFBC12C",
+        "actions": [],
+        "reactions": [
+          {
+            "name": "Appel ",
+            "reactionId": "mobile_reaction_call",
+            "params": [
+              { "name": "Numéro", "type": "text", "value": "", "server": "" },
+              { "name": "Message", "type": "text", "value": "", "server": "" }
+            ]
+          },
+          {
+            "name": "SMS ",
+            "reactionId": "mobile_reaction_sms",
+            "params": [
+              { "name": "Numéro", "type": "text", "value": "", "server": "" },
+              { "name": "Message", "type": "area", "value": "", "server": "" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Discord",
+        "image": "assets/Profil/iconDiscord.svg",
+        "color": "0XFF7289DA",
+        "actions": [],
+        "reactions": [
+          {
+            "name": "Envoyer un message ",
+            "reactionId": "discord_send_webhook_message",
+            "params": [
+              { "name": "Lien du Webhook", "type": "text", "value": "", "server": "" },
+              { "name": "Message", "type": "area", "value": "", "server": "" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Instagram",
+        "image": "assets/Profil/iconInsta.svg",
+        "color": "0XFFCC1F53",
+        "actions": [
+          {
+            "name": "Quelqu'un suit le compte ",
+            "actionId": "instagram_action_win_followers",
+            "params": [{ "name": "Identifiant", "type": "text", "value": "", "server": "" }]
+          },
+          {
+            "name": "Quelqu'un ne suit plus le compte ",
+            "actionId": "instagram_action_lose_followers",
+            "params": [{ "name": "Identifiant", "type": "text", "value": "", "server": "" }]
+          },
+          {
+            "name": "Le compte suit quelqu'un ",
+            "actionId": "instagram_action_win_followings",
+            "params": [{ "name": "Identifiant", "type": "text", "value": "", "server": "" }]
+          },
+          {
+            "name": "Le compte ne suit plus quelqu'un ",
+            "actionId": "instagram_action_lose_followings",
+            "params": [{ "name": "Identifiant", "type": "text", "value": "", "server": "" }]
+          }
+        ],
+        "reactions": []
+      }
+]

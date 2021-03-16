@@ -1,0 +1,100 @@
+.modal-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 102%;
+  /* or 18px */
+  letter-spacing: 0.01em;
+  color: #eeeeee;
+}
+
+.modal-action-setup-button {
+  background: #eeeeee;
+  width: 317px;
+  height: 46px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 102%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.modal-text-input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 102%;
+  letter-spacing: 0.01em;
+  color: #000000;
+}
+
+.modal-action-setup-button:hover {
+  background: #b1b1b1;
+}
+
+.modal-medium-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 102%;
+  /* or 18px */
+  letter-spacing: 0.01em;
+  color: #eeeeee;
+}
+
+.modal-regular-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 102%;
+  /* or 18px */
+  letter-spacing: 0.01em;
+  color: #eeeeee;
+}
+
+.modal-submit-button {
+  width: 219px;
+  height: 49px;
+  background: #04724d;
+  border-radius: 25px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 102%;
+  /* or 18px */
+  color: #f2f2f2;
+  letter-spacing: 0.01em;
+}
+
+.modal-cancel-button {
+  width: 219px;
+  height: 49px;
+  background: #bf5252;
+  border-radius: 25px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 102%;
+  /* or 18px */
+  color: #f2f2f2;
+  letter-spacing: 0.01em;
+}
+
+.modal-cancel-button:hover {
+  background: #d35a5a;
+}
+
+.modal-submit-button:hover {
+  background: #079666;
+}

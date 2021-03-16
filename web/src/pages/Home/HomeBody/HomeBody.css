@@ -1,0 +1,12 @@
+
+.add-link-button {
+    width: 190px;
+    height: 40px;
+    background: #04724d;
+    border-radius: 25px;
+  }
+  
+  .add-link-button:hover {
+    background: #06a36f;
+  }
+  

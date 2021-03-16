@@ -1,0 +1,6 @@
+<!-- <application android:usesCleartextTraffic="true"/> -->
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="false">
+        <domain includeSubdomains="true">http://10.0.2.2:8080/auth/login</domain>
+    </domain-config>
+</network-security-config>

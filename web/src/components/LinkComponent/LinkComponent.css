@@ -1,0 +1,58 @@
+.link-component {
+  border-radius: 25px;
+  width: 441px;
+  height: 201px;
+  min-width: 300px;
+}
+
+.toggle-checkbox {
+  right: 0;
+  border-color: #ffffff;
+  background-color: #818181;
+}
+
+.toggle-checkbox+.toggle-label {
+  background-color: #ffffff;
+}
+
+.toggle-checkbox:checked {
+  left: 0;
+  border-color: #ffffff;
+  background-color: #7bda8a;
+}
+
+.toggle-checkbox:checked+.toggle-label {
+  background-color: #ffffff;
+}
+
+.title-poppins-link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 102%;
+  font-size: 18px;
+  /* or 18px */
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.text-poppins-link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /* or 18px */
+  letter-spacing: 0.01em;
+  color: #ffffff;
+}
+
+.text-light-link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 102%;
+  /* or 13px */
+  letter-spacing: 0.01em;
+  color: #FFFFFF;
+}

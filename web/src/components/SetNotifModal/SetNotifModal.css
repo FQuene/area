@@ -1,0 +1,52 @@
+.notif-modal-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 102%;
+    letter-spacing: 0.01em;
+    color: #FEFEFE;
+}
+
+.notif-modal-input-text {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 102%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+
+.notif-modal-input {
+    width: 330px;
+    height: 21px;
+    background: #FFFFFF;
+    border-radius: 5px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 102%;
+    letter-spacing: 0.01em;
+    color: #000000;
+    text-indent: 2%;
+}
+
+.notif-modal-submit-button {
+    width: 147px;
+    height: 30px;
+    border-radius: 25px;
+    background: #04724D;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 102%;
+    letter-spacing: 0.01em;
+    color: #F2F2F2;
+}
+
+.notif-modal-submit-button:hover {
+    background: #06a36f;
+}

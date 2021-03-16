@@ -1,0 +1,42 @@
+version: "3.0"
+
+services:
+    #
+    postgres:
+        container_name: postgres
+        restart: always
+        image: postgres:latest
+        environment:
+            POSTGRES_USER: admin
+            POSTGRES_PASSWORD: password
+            POSTGRES_DB: area
+        ports:
+            - 5432:5432
+
+    server:
+        container_name: server
+        # restart: always
+        build: ./server
+        ports:
+            - 8080:8080
+        environment:
+            WAIT_HOSTS: postgres:5432
+
+    client_web:
+        container_name: client_web
+        # restart: always
+        build: ./web
+        ports:
+            - 8081:8081
+        volumes:
+            - data:/client_web_area/apk
+
+    client_mobile:
+        container_name: client_mobile
+        restart: always
+        build: ./mobile
+        volumes:
+            - data:/client_mobile_area/build/app/outputs/apk/release
+
+volumes:
+    data:

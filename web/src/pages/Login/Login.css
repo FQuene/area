@@ -1,0 +1,27 @@
+.login-button-connection {
+  background: #04724d;
+  border-radius: 25px;
+  width: 70%;
+  height: 31px;
+}
+
+.login-text-poppins {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 102%;
+  letter-spacing: 0.01em;
+  color: #eeeeee;
+}
+
+.button-google {
+  width: 25%;
+  height: 31px;
+  background: #eeeeee;
+  border-radius: 25px;
+}
+
+.login-button-connection:hover {
+  background: #06a36f;
+}

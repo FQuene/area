@@ -1,0 +1,10 @@
+.register-button-connection {
+  background: #04724d;
+  border-radius: 25px;
+  width: 80%;
+  height: 31px;
+}
+
+.register-button-connection:hover {
+  background: #06a36f;
+}

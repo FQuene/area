@@ -1,0 +1,37 @@
+.home-logo-area {
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 56.9643px;
+  line-height: 102%;
+
+  letter-spacing: 0.01em;
+
+  color: #ebebd3;
+}
+
+.home-poppins-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 102%;
+  /* or 20px */
+
+  letter-spacing: 0.01em;
+
+  color: #eeeeee;
+}
+
+.home-poppins-medium-text {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 102%;
+  /* or 20px */
+
+  letter-spacing: 0.01em;
+
+  color: #f2f2f2;
+}

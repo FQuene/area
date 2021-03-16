@@ -1,0 +1,50 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Users {
+  id        Int      @id @default(autoincrement())
+  accType   String
+  username  String   @unique
+  email     String   @unique
+  password  String?
+  createdAt DateTime @default(now())
+  Tokens    Tokens[]
+  Areas     Areas[]
+}
+
+model Tokens {
+  id              Int     @id @default(autoincrement())
+  author          Users   @relation(fields: [parent], references: [id])
+  parent          Int // relation scalar field  (used in the `@relation` attribute above)
+  service         String
+  token           String
+  enabled         Boolean
+  color           String
+  hasRefreshToken Boolean @default(false)
+  otherParams     Json?
+}
+
+model Areas {
+  id              Int       @id @default(autoincrement())
+  Users           Users     @relation(fields: [parent], references: [id])
+  parent          Int
+  enabled         Boolean
+  actionService   String
+  actionId        String
+  actionDes       String
+  actionParams    Json
+  reactionService String
+  reactionId      String
+  reactionDes     String
+  reactionParams  Json
+  lastTrigger     DateTime?
+}

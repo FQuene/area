@@ -1,0 +1,24 @@
+.modal-title {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 102%;
+  /* or 65px */
+
+  letter-spacing: 0.01em;
+
+  color: #eeeeee;
+}
+
+.modal-pages-text {
+  font-family: Poppins;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 72px;
+  /* identical to box height */
+
+  color: #eeeeee;
+  margin-right: 5%;
+}

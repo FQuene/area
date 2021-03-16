@@ -1,0 +1,30 @@
+.select-text-poppins {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 102%;
+  letter-spacing: 0.01em;
+}
+
+.select-login-input {
+  width: 335px;
+  height: 48px;
+  background: #f4d35e;
+  border-radius: 20px;
+}
+
+.select-login-input:hover {
+  background: #ffc800;
+}
+
+.select-register-input {
+  width: 335px;
+  height: 48px;
+  background: rgba(49, 47, 66, 0.83);
+  border-radius: 20px;
+}
+
+.select-register-input:hover {
+  background: rgba(85, 83, 104, 0.83);
+}

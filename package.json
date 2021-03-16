@@ -1,0 +1,12 @@
+{
+  "name": "area",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:EpitechIT2020/B-YEP-500-PAR-5-1-area-kishonan.pushpanathan.git",
+  "author": "brhon <54709839+brohwn@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "pullup:app": "sudo docker-compose up --build"
+  },
+  "dependencies": {}
+}

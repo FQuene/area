@@ -1,0 +1,69 @@
+.form-footer {
+  position: absolute;
+  bottom: 2%;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 102%;
+  letter-spacing: 0.01em;
+  color: #eeeeee;
+}
+
+.area-title-righteous {
+  font-family: Righteous;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 110px;
+  line-height: 102%;
+  letter-spacing: 0.01em;
+  color: #ebebd3;
+}
+
+.form-techno-image {
+  position: absolute;
+  width: 464px;
+  height: 378px;
+  left: 7%;
+  top: 27%;
+}
+
+.form-input {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 102%;
+  letter-spacing: 0.01em;
+  color: #eeeeee;
+}
+
+.form-input::placeholder {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 102%;
+  letter-spacing: 0.01em;
+  color: #d3d3d3;
+}
+
+@media only screen and (max-width: 1415px) {
+  .form-techno-image {
+    display: none;
+  }
+}
+
+.form-link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 102%;
+  letter-spacing: 0.01em;
+  color: #eeeeee;
+}
+
+.form-link:hover {
+  text-decoration: underline #eeeeee;
+}
